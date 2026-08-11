@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127803291-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127803291-1');
+</script>
+
+        
+        <title>LoRA meets Riemannion: Muon Optimizer for Parametrization-independent Low-Rank Adapters (ICLR 2026) – Bayesian Methods Research Group</title>
+        <meta property="twitter:site" content="@bayesgroup" />
+        <meta property="twitter:card" content="summary" />
+        <meta property="og:title" content="LoRA meets Riemannion: Muon Optimizer for Parametrization-independent Low-Rank Adapters (ICLR 2026) – Bayesian Methods Research Group" />
+        <meta property="og:description" content="This work presents a novel, fully Riemannian framework for Low-Rank Adaptation (LoRA) that geometrically treats low-rank adapters by optimizing them directly on the fixed-rank manifold. This formulation eliminates the parametrization ambiguity present..." />
+        <meta property="og:image" content="http://bayesgroup.org/theme/images/bayesgroup_opengraph.png" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lte IE 8]><script src="/theme/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="/theme/css/ie8.css" /><![endif]-->
+</head>
+
+<body>
+        <!-- Header -->
+            <section id="header">
+                <header>
+                    <span class="image"><a href="/"><img src="/theme/images/bayesgroup.png" alt="" /></a></span>
+                    <h1 id="logo">Bayesian Methods Research Group</h1>
+                    <p>from Bremen, Germany</p>
+                </header>
+                <nav id="nav">
+                    <ul>
+                                <li><a href="/about/">About</a></li>
+                                <li><a href="/people">People</a></li>
+                                <li class="active"><a href="/publications">Publications</a></li>
+                                <li><a href="/teaching">Teaching</a></li>
+                                <li><a href="/admission/">Admission</a></li>
+                                <li><a href="/alumni/">Alumni</a></li>
+                    </ul>
+                </nav>
+                <footer>
+                    <ul class="icons">
+                        <li><a href="https://twitter.com/bayesgroup" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                        <li><a href="https://www.youtube.com/@bayesgroup" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+                        <li><a href="mailto:info@bayesgroup.org" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                    </ul>
+                </footer>
+            </section>
+
+        <!-- Wrapper -->
+            <div id="wrapper">
+
+                <!-- Group Photo -->
+                    <section id="photo">
+                        <div class="container">
+                            <span class="image fit"><img src="/theme/images/banner.jpg" alt="" /></span>
+                         </div>
+                    </section>
+
+                <!-- Main -->
+                    <div id="main">
+<section id="publication-page">
+	<div class="container">
+		<header class="major">
+			<h2><span class="ribbon-container"><span class="ribbon-left ribbon-green" title="The Fourteenth International Conference on Learning Representations">ICLR 2026</span></span> LoRA meets Riemannion: Muon Optimizer for Parametrization-independent Low-Rank Adapters</h2>
+            <div class="publication-authors">
+            <ol>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Vladimir Bogachev" /> Vladimir Bogachev
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Vladimir Aletov" /> Vladimir Aletov
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Alexander Molozhavenko" /> Alexander Molozhavenko
+                </li>
+
+                <li class="author">
+                    <a href="/people/denis-bobkov/">
+                    <img src="/photos/denis-bobkov.jpg" alt="Photo Denis Bobkov" /> Denis Bobkov
+                    </a>
+                </li>
+
+                <li class="author">
+                    <a href="/people/vera-soboleva/">
+                    <img src="/photos/vera-soboleva.JPEG" alt="Photo Vera Soboleva" /> Vera Soboleva
+                    </a>
+                </li>
+
+                <li class="author">
+                    <a href="/people/aibek-alanov/">
+                    <img src="/photos/alanov.jpg" alt="Photo Aibek Alanov" /> Aibek Alanov
+                    </a>
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Maxim Rakhuba" /> Maxim Rakhuba
+                </li>
+            </ol>
+            </div>
+		</header>
+
+    <p>This work presents a novel, fully Riemannian framework for Low-Rank Adaptation (LoRA) that geometrically treats low-rank adapters by optimizing them directly on the fixed-rank manifold. This formulation eliminates the parametrization ambiguity present in standard Euclidean optimizers. Our framework integrates three key components to achieve this: (1) we derive Riemannion, a new Riemannian optimizer on the fixed-rank matrix manifold that generalizes the recently proposed Muon optimizer; (2) we develop a Riemannian gradient-informed LoRA initialization, and (3) we provide an efficient implementation without prominent overhead that uses automatic differentiation to compute arising geometric operations while adhering to best practices in numerical linear algebra. Comprehensive experimental results on both LLM and diffusion model architectures demonstrate that our approach yields consistent and noticeable improvements in convergence speed and final task performance over both standard LoRA and its state-of-the-art modifications.</p>
+
+            <div class="publication-links">
+<a href ="https://openreview.net/pdf?id=WtbXgc9GVA" class="publication-paper-link" title="Link to paper">paper</a>            </div>
+
+
+
+    </div>
+</section>
+                    </div>
+
+                <!-- Footer -->
+                    <section id="footer">
+                        <div class="container">
+                            <ul class="copyright">
+                                <li>Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                            </ul>
+                        </div>
+                    </section>
+
+            </div>
+
+        <!-- Scripts -->
+            <script src="/theme/js/jquery.min.js"></script>
+            <script src="/theme/js/jquery.scrollzer.min.js"></script>
+            <script src="/theme/js/jquery.scrolly.min.js"></script>
+            <script src="/theme/js/skel.min.js"></script>
+            <script src="/theme/js/util.js"></script>
+            <!--[if lte IE 8]><script src="theme/js/ie/respond.min.js"></script><![endif]-->
+            <script src="/theme/js/main.js"></script>
+
+</body>
+</html>

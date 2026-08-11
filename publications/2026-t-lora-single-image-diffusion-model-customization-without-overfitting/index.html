@@ -12,12 +12,12 @@
 </script>
 
         
-        <title>Denis Rakitin – Bayesian Methods Research Group</title>
+        <title>T-LoRA: Single Image Diffusion Model Customization Without Overfitting (AAAI 2026) – Bayesian Methods Research Group</title>
         <meta property="twitter:site" content="@bayesgroup" />
         <meta property="twitter:card" content="summary" />
-        <meta property="og:title" content="Denis Rakitin – Bayesian Methods Research Group" />
-        <meta property="og:description" content="from Bremen, Germany" />
-        <meta property="og:image" content="http://bayesgroup.org/photos/rakitin.jpg" />
+        <meta property="og:title" content="T-LoRA: Single Image Diffusion Model Customization Without Overfitting (AAAI 2026) – Bayesian Methods Research Group" />
+        <meta property="og:description" content="While diffusion model fine-tuning offers a powerful approach for customizing pre-trained models to generate specific objects, it frequently suffers from overfitting when training samples are limited, compromising both generalization capability and..." />
+        <meta property="og:image" content="http://bayesgroup.org/theme/images/bayesgroup_opengraph.png" />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--[if lte IE 8]><script src="/theme/js/ie/html5shiv.js"></script><![endif]-->
@@ -36,8 +36,8 @@
                 <nav id="nav">
                     <ul>
                                 <li><a href="/about/">About</a></li>
-                                <li class="active"><a href="/people">People</a></li>
-                                <li><a href="/publications">Publications</a></li>
+                                <li><a href="/people">People</a></li>
+                                <li class="active"><a href="/publications">Publications</a></li>
                                 <li><a href="/teaching">Teaching</a></li>
                                 <li><a href="/admission/">Admission</a></li>
                                 <li><a href="/alumni/">Alumni</a></li>
@@ -64,37 +64,45 @@
 
                 <!-- Main -->
                     <div id="main">
-<section id="page">
+<section id="publication-page">
 	<div class="container">
 		<header class="major">
-			<h2>Denis Rakitin</h2>
+			<h2><span class="ribbon-container"><span class="ribbon-left ribbon-green" title="Fortieth AAAI Conference on Artificial Intelligence">AAAI 2026</span></span> T-LoRA: Single Image Diffusion Model Customization Without Overfitting</h2>
+            <div class="publication-authors">
+            <ol>
+
+                <li class="author">
+                    <a href="/people/vera-soboleva/">
+                    <img src="/photos/vera-soboleva.JPEG" alt="Photo Vera Soboleva" /> Vera Soboleva
+                    </a>
+                </li>
+
+                <li class="author">
+                    <a href="/people/aibek-alanov/">
+                    <img src="/photos/alanov.jpg" alt="Photo Aibek Alanov" /> Aibek Alanov
+                    </a>
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Andrey Kuznetsov" /> Andrey Kuznetsov
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Konstantin Sobolev" /> Konstantin Sobolev
+                </li>
+            </ol>
+            </div>
 		</header>
 
-    
+    <p>While diffusion model fine-tuning offers a powerful approach for customizing pre-trained models to generate specific objects, it frequently suffers from overfitting when training samples are limited, compromising both generalization capability and output diversity. This paper tackles the challenging yet most impactful task of adapting a diffusion model using just a single concept image, as single-image customization holds the greatest practical potential. We introduce TLoRA, a Timestep-Dependent Low-Rank Adaptation framework specifically designed for diffusion model personalization. We show that higher diffusion timesteps are more
+prone to overfitting than lower ones, necessitating a timestepsensitive fine-tuning strategy. T-LoRA incorporates two key innovations: (1) a dynamic fine-tuning strategy that adjusts rank-constrained updates based on diffusion timesteps, and
+(2) a weight parametrization technique that ensures independence between adapter components through orthogonal initialization. Extensive experiments on SD-XL and FLUX1.dev show that T-LoRA and its individual components outperform standard LoRA and other diffusion model personalization techniques, achieving a superior balance between concept fidelity and text alignment.</p>
 
-    <h4>Recent Publications</h4>
-    <ul id="recent-publications-list">
-            <li>
-                <b><a href="/publications/2026-gas-improving-discretization-of-diffusion-odes-via-generalized-adversarial-solver/">GAS: Improving Discretization of Diffusion ODEs via Generalized Adversarial Solver</a></b>
-                (2026)
-<span class="ribbon-container"><span class="ribbon-right ribbon-teal" title="The Fourteenth International Conference on Learning Representations">ICLR 2026</span></span>            </li>
-            <li>
-                <b><a href="/publications/2024-differentiable-rendering-with-reparameterized-volume-sampling/">Differentiable Rendering with Reparameterized Volume Sampling</a></b>
-                (2024)
-<span class="ribbon-container"><span class="ribbon-right ribbon-teal" title="Twenty-seventh International Conference on Artificial Intelligence and Statistics">AISTATS 2024</span></span>            </li>
-            <li>
-                <b><a href="/publications/2024-regularized-distribution-matching-distillation-for-one-step-unpaired-image-to-image-translation/">Regularized Distribution Matching Distillation for One-step Unpaired Image-to-Image Translation</a></b>
-                (2024)
-<span class="ribbon-container"><span class="ribbon-right ribbon-teal" title="ICML 2024 Workshop on Structured Probabilistic Inference & Generative Modeling">ICML Workshop 2024</span></span>            </li>
-            <li>
-                <b><a href="/publications/2023-differentiable-rendering-with-reparameterized-volume-sampling/">Differentiable Rendering with Reparameterized Volume Sampling</a></b>
-                (2023)
-<span class="ribbon-container"><span class="ribbon-right ribbon-teal" title="Neural Fields, ICLR 2023 Workshop">ICLR Workshop 2023</span></span>            </li>
-            <li>
-                <b><a href="/publications/2021-leveraging-recursive-gumbel-max-trick-for-approximate-inference-in-combinatorial-spaces/">Leveraging Recursive Gumbel-Max Trick for Approximate Inference in Combinatorial Spaces</a></b>
-                (2021)
-<span class="ribbon-container"><span class="ribbon-right ribbon-teal" title="Thirty-fifth Conference on Neural Information Processing Systems">NeurIPS 2021</span></span>            </li>
-    </ul>
+            <div class="publication-links">
+<a href ="https://arxiv.org/pdf/2507.05964" class="publication-paper-link" title="Link to paper">paper</a><a href ="https://github.com/ControlGenAI/T-LoRA" class="publication-code-link" title="Link to code">code</a>            </div>
+
+
+
     </div>
 </section>
                     </div>
