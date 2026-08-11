@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127803291-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127803291-1');
+</script>
+
+        
+        <title>Cosmos: Compressed and Smooth Latent Space for Text Diffusion Modeling (NeurIPS 2025) – Bayesian Methods Research Group</title>
+        <meta property="twitter:site" content="@bayesgroup" />
+        <meta property="twitter:card" content="summary" />
+        <meta property="og:title" content="Cosmos: Compressed and Smooth Latent Space for Text Diffusion Modeling (NeurIPS 2025) – Bayesian Methods Research Group" />
+        <meta property="og:description" content="Autoregressive language models dominate modern text generation, yet their sequential nature introduces fundamental limitations: decoding is slow, and maintaining global coherence remains challenging. Diffusion models offer a promising alternative by..." />
+        <meta property="og:image" content="http://bayesgroup.org/theme/images/bayesgroup_opengraph.png" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lte IE 8]><script src="/theme/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="/theme/css/ie8.css" /><![endif]-->
+</head>
+
+<body>
+        <!-- Header -->
+            <section id="header">
+                <header>
+                    <span class="image"><a href="/"><img src="/theme/images/bayesgroup.png" alt="" /></a></span>
+                    <h1 id="logo">Bayesian Methods Research Group</h1>
+                    <p>from Bremen, Germany</p>
+                </header>
+                <nav id="nav">
+                    <ul>
+                                <li><a href="/about/">About</a></li>
+                                <li><a href="/people">People</a></li>
+                                <li class="active"><a href="/publications">Publications</a></li>
+                                <li><a href="/teaching">Teaching</a></li>
+                                <li><a href="/admission/">Admission</a></li>
+                                <li><a href="/alumni/">Alumni</a></li>
+                    </ul>
+                </nav>
+                <footer>
+                    <ul class="icons">
+                        <li><a href="https://twitter.com/bayesgroup" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                        <li><a href="https://www.youtube.com/@bayesgroup" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+                        <li><a href="mailto:info@bayesgroup.org" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                    </ul>
+                </footer>
+            </section>
+
+        <!-- Wrapper -->
+            <div id="wrapper">
+
+                <!-- Group Photo -->
+                    <section id="photo">
+                        <div class="container">
+                            <span class="image fit"><img src="/theme/images/banner.jpg" alt="" /></span>
+                         </div>
+                    </section>
+
+                <!-- Main -->
+                    <div id="main">
+<section id="publication-page">
+	<div class="container">
+		<header class="major">
+			<h2><span class="ribbon-container"><span class="ribbon-left ribbon-green" title="The Thirty-Ninth Annual Conference on Neural Information Processing Systems">NeurIPS 2025</span></span> Cosmos: Compressed and Smooth Latent Space for Text Diffusion Modeling</h2>
+            <div class="publication-authors">
+            <ol>
+
+                <li class="author">
+                    <a href="/people/viacheslav-meshchaninov/">
+                    <img src="/photos/meshchaninov.jpg" alt="Photo Viacheslav Meshchaninov" /> Viacheslav Meshchaninov
+                    </a>
+                </li>
+
+                <li class="author">
+                    <a href="/people/egor-chimbulatov/">
+                    <img src="/photos/chimbulatov.jpg" alt="Photo Egor Chimbulatov" /> Egor Chimbulatov
+                    </a>
+                </li>
+
+                <li class="author">
+                    <a href="/people/alexander-shabalin/">
+                    <img src="/photos/shabalin.jpg" alt="Photo Alexander Shabalin" /> Alexander Shabalin
+                    </a>
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Aleksandr Abramov" /> Aleksandr Abramov
+                </li>
+
+                <li class="author">
+                    <a href="/people/dmitry-vetrov/">
+                    <img src="/photos/vetrov.jpg" alt="Photo Dmitry Vetrov" /> Dmitry Vetrov
+                    </a>
+                </li>
+            </ol>
+            </div>
+		</header>
+
+    <p>Autoregressive language models dominate modern text generation, yet their sequential nature introduces fundamental limitations: decoding is slow, and maintaining global coherence remains challenging. Diffusion models offer a promising alternative by enabling parallel generation and flexible control; however, their application to text generation is hindered by the high dimensionality of token-level representations. We introduce COSMOS, a novel approach to text generation that
+operates entirely in a compressed, smooth latent space tailored specifically for diffusion. This space is learned using an autoencoder trained simultaneously for
+token-level reconstruction and alignment with frozen activations from a pretrained language encoder, providing robust semantic grounding and enabling effective
+perturbation-based augmentations. Empirically, we demonstrate that text representations can be compressed up to 8× while maintaining generation quality
+comparable to token-level diffusion models. Furthermore, increasing the latent sequence length allows COSMOS to surpass both diffusion-based and autoregressive
+baselines. We evaluate COSMOS on four diverse generative tasks including story
+generation, question generation, summarization, and detoxification and compare
+it with various generative paradigms. COSMOS achieves comparable or superior
+generation quality while offering more than 2× faster inference. Code is released
+at <a href="https://github.com/MeshchaninovViacheslav/cosmos">GitHub</a>.</p>
+
+            <div class="publication-links">
+<a href ="https://openreview.net/pdf?id=Rv6Lz84FlZ" class="publication-paper-link" title="Link to paper">paper</a><a href ="https://github.com/MeshchaninovViacheslav/cosmos" class="publication-code-link" title="Link to code">code</a>            </div>
+
+
+
+    </div>
+</section>
+                    </div>
+
+                <!-- Footer -->
+                    <section id="footer">
+                        <div class="container">
+                            <ul class="copyright">
+                                <li>Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                            </ul>
+                        </div>
+                    </section>
+
+            </div>
+
+        <!-- Scripts -->
+            <script src="/theme/js/jquery.min.js"></script>
+            <script src="/theme/js/jquery.scrollzer.min.js"></script>
+            <script src="/theme/js/jquery.scrolly.min.js"></script>
+            <script src="/theme/js/skel.min.js"></script>
+            <script src="/theme/js/util.js"></script>
+            <!--[if lte IE 8]><script src="theme/js/ie/respond.min.js"></script><![endif]-->
+            <script src="/theme/js/main.js"></script>
+
+</body>
+</html>

@@ -12,12 +12,12 @@
 </script>
 
         
-        <title>Alexander Shabalin – Bayesian Methods Research Group</title>
+        <title>Revisiting Non-Acyclic GFlowNets in Discrete Environments (ICML 2025) – Bayesian Methods Research Group</title>
         <meta property="twitter:site" content="@bayesgroup" />
         <meta property="twitter:card" content="summary" />
-        <meta property="og:title" content="Alexander Shabalin – Bayesian Methods Research Group" />
-        <meta property="og:description" content="from Bremen, Germany" />
-        <meta property="og:image" content="http://bayesgroup.org/photos/shabalin.jpg" />
+        <meta property="og:title" content="Revisiting Non-Acyclic GFlowNets in Discrete Environments (ICML 2025) – Bayesian Methods Research Group" />
+        <meta property="og:description" content="Generative Flow Networks (GFlowNets) are a family of generative models that learn to sample objects from a given probability distribution, potentially known up to a normalizing constant. Instead of working in the object space, GFlowNets proceed by..." />
+        <meta property="og:image" content="http://bayesgroup.org/theme/images/bayesgroup_opengraph.png" />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--[if lte IE 8]><script src="/theme/js/ie/html5shiv.js"></script><![endif]-->
@@ -36,8 +36,8 @@
                 <nav id="nav">
                     <ul>
                                 <li><a href="/about/">About</a></li>
-                                <li class="active"><a href="/people">People</a></li>
-                                <li><a href="/publications">Publications</a></li>
+                                <li><a href="/people">People</a></li>
+                                <li class="active"><a href="/publications">Publications</a></li>
                                 <li><a href="/teaching">Teaching</a></li>
                                 <li><a href="/admission/">Admission</a></li>
                                 <li><a href="/alumni/">Alumni</a></li>
@@ -64,25 +64,44 @@
 
                 <!-- Main -->
                     <div id="main">
-<section id="page">
+<section id="publication-page">
 	<div class="container">
 		<header class="major">
-			<h2>Alexander Shabalin</h2>
+			<h2><span class="ribbon-container"><span class="ribbon-left ribbon-green" title="Forty-Second International Conference on Machine Learning">ICML 2025</span></span> Revisiting Non-Acyclic GFlowNets in Discrete Environments</h2>
+            <div class="publication-authors">
+            <ol>
+
+                <li class="author">
+                    <a href="/people/nikita-morozov/">
+                    <img src="/photos/nikita-morozov.jpg" alt="Photo Nikita Morozov" /> Nikita Morozov
+                    </a>
+                </li>
+
+                <li class="author">
+                    <a href="/people/ian-maksimov/">
+                    <img src="/photos/maksimov.jpg" alt="Photo Ian Maksimov" /> Ian Maksimov
+                    </a>
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Daniil Tiapkin" /> Daniil Tiapkin
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Sergey Samsonov" /> Sergey Samsonov
+                </li>
+            </ol>
+            </div>
 		</header>
 
-    
+    <p>Generative Flow Networks (GFlowNets) are a family of generative models that learn to sample objects from a given probability distribution, potentially known up to a normalizing constant. Instead of working in the object space, GFlowNets proceed by sampling trajectories in an appropriately constructed directed acyclic graph environment, greatly relying on the acyclicity of the graph. In our paper, we revisit the theory that relaxes the acyclicity assumption and present a simpler theoretical framework for non-acyclic GFlowNets in discrete environments. Moreover,
+we provide various novel theoretical insights related to training with fixed backward policies, the nature of flow functions, and connections between entropy-regularized RL and non-acyclic GFlowNets, which naturally generalize the respective concepts and theoretical results from the acyclic setting. In addition, we experimentally re-examine the concept of loss stability in nonacyclic GFlowNet training, as well as validate our own theoretical findings.</p>
 
-    <h4>Recent Publications</h4>
-    <ul id="recent-publications-list">
-            <li>
-                <b><a href="/publications/2025-cosmos-compressed-and-smooth-latent-space-for-text-diffusion-modeling/">Cosmos: Compressed and Smooth Latent Space for Text Diffusion Modeling</a></b>
-                (2025)
-<span class="ribbon-container"><span class="ribbon-right ribbon-teal" title="The Thirty-Ninth Annual Conference on Neural Information Processing Systems">NeurIPS 2025</span></span>            </li>
-            <li>
-                <b><a href="/publications/2025-tencdm-understanding-the-properties-of-diffusion-model-in-the-space-of-language-model-encodings/">TEncDM: Understanding the Properties of Diffusion Model in the Space of Language Model Encodings</a></b>
-                (2025)
-<span class="ribbon-container"><span class="ribbon-right ribbon-teal" title="Thirty-Ninth AAAI Conference on Artificial Intelligence">AAAI 2025</span></span>            </li>
-    </ul>
+            <div class="publication-links">
+<a href ="https://openreview.net/pdf?id=czqxB524oo" class="publication-paper-link" title="Link to paper">paper</a><a href ="https://github.com/GreatDrake/non-acyclic-gfn" class="publication-code-link" title="Link to code">code</a>            </div>
+
+
+
     </div>
 </section>
                     </div>
