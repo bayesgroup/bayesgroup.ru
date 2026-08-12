@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127803291-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127803291-1');
+</script>
+
+        
+        <title>Guided Star-Shaped Masked Diffusion (ICML 2026) – Bayesian Methods Research Group</title>
+        <meta property="twitter:site" content="@bayesgroup" />
+        <meta property="twitter:card" content="summary" />
+        <meta property="og:title" content="Guided Star-Shaped Masked Diffusion (ICML 2026) – Bayesian Methods Research Group" />
+        <meta property="og:description" content="The performance of pre-trained masked diffusion models is often constrained by their sampling procedure, which makes decisions irreversible and struggles in low-step generation regimes. We introduce a novel sampling algorithm that works with..." />
+        <meta property="og:image" content="http://bayesgroup.org/theme/images/bayesgroup_opengraph.png" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lte IE 8]><script src="/theme/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="/theme/css/ie8.css" /><![endif]-->
+</head>
+
+<body>
+        <!-- Header -->
+            <section id="header">
+                <header>
+                    <span class="image"><a href="/"><img src="/theme/images/bayesgroup.png" alt="" /></a></span>
+                    <h1 id="logo">Bayesian Methods Research Group</h1>
+                    <p>from Bremen, Germany</p>
+                </header>
+                <nav id="nav">
+                    <ul>
+                                <li><a href="/about/">About</a></li>
+                                <li><a href="/people">People</a></li>
+                                <li class="active"><a href="/publications">Publications</a></li>
+                                <li><a href="/teaching">Teaching</a></li>
+                                <li><a href="/admission/">Admission</a></li>
+                                <li><a href="/alumni/">Alumni</a></li>
+                    </ul>
+                </nav>
+                <footer>
+                    <ul class="icons">
+                        <li><a href="https://twitter.com/bayesgroup" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                        <li><a href="https://www.youtube.com/@bayesgroup" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+                        <li><a href="mailto:info@bayesgroup.org" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                    </ul>
+                </footer>
+            </section>
+
+        <!-- Wrapper -->
+            <div id="wrapper">
+
+                <!-- Group Photo -->
+                    <section id="photo">
+                        <div class="container">
+                            <span class="image fit"><img src="/theme/images/banner.jpg" alt="" /></span>
+                         </div>
+                    </section>
+
+                <!-- Main -->
+                    <div id="main">
+<section id="publication-page">
+	<div class="container">
+		<header class="major">
+			<h2><span class="ribbon-container"><span class="ribbon-left ribbon-green" title="Forty-Third International Conference on Machine Learning">ICML 2026</span></span> Guided Star-Shaped Masked Diffusion</h2>
+            <div class="publication-authors">
+            <ol>
+
+                <li class="author">
+                    <a href="/people/viacheslav-meshchaninov/">
+                    <img src="/photos/meshchaninov.jpg" alt="Photo Viacheslav Meshchaninov" /> Viacheslav Meshchaninov
+                    </a>
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Egor Shibaev" /> Egor Shibaev
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Artem Makoian" /> Artem Makoian
+                </li>
+
+                <li class="author">
+                    <a href="/people/ivan-klimov/">
+                    <img src="/photos/ivan_klimov.jpg" alt="Photo Ivan Klimov" /> Ivan Klimov
+                    </a>
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Nikita Balagansky" /> Nikita Balagansky
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Daniil Gavrilov" /> Daniil Gavrilov
+                </li>
+
+                <li class="author">
+                    <a href="/people/aibek-alanov/">
+                    <img src="/photos/alanov.jpg" alt="Photo Aibek Alanov" /> Aibek Alanov
+                    </a>
+                </li>
+
+                <li class="author">
+                    <a href="/people/dmitry-vetrov/">
+                    <img src="/photos/vetrov.jpg" alt="Photo Dmitry Vetrov" /> Dmitry Vetrov
+                    </a>
+                </li>
+            </ol>
+            </div>
+		</header>
+
+    <p>The performance of pre-trained masked diffusion models is often constrained by their sampling procedure, which makes decisions irreversible and struggles in low-step generation regimes. We introduce a novel sampling algorithm that works with pre-trained models and, after a lightweight fine-tuning of a single layer, significantly improves sample quality and efficiency. Our method reformulates the generation process using a star-shaped paradigm, which inherently allows for error correction. To make this process effective, we augment it with a learnable remasking module that intelligently identifies and revises likely errors. This approach yields a substantial quality boost, particularly when using a small number of sampling steps. We extensively ablate key components of our approach and show its usability in different scenarios. In experiments on text, and code generation, our sampling algorithm outperforms or matches existing methods. Code is available at https://github.com/EgorShibaev/G-Star.</p>
+
+            <div class="publication-links">
+<a href ="https://openreview.net/pdf?id=ktRyGKpt9U" class="publication-paper-link" title="Link to paper">paper</a><a href ="https://github.com/EgorShibaev/G-Star" class="publication-code-link" title="Link to code">code</a>            </div>
+
+
+
+    </div>
+</section>
+                    </div>
+
+                <!-- Footer -->
+                    <section id="footer">
+                        <div class="container">
+                            <ul class="copyright">
+                                <li>Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                            </ul>
+                        </div>
+                    </section>
+
+            </div>
+
+        <!-- Scripts -->
+            <script src="/theme/js/jquery.min.js"></script>
+            <script src="/theme/js/jquery.scrollzer.min.js"></script>
+            <script src="/theme/js/jquery.scrolly.min.js"></script>
+            <script src="/theme/js/skel.min.js"></script>
+            <script src="/theme/js/util.js"></script>
+            <!--[if lte IE 8]><script src="theme/js/ie/respond.min.js"></script><![endif]-->
+            <script src="/theme/js/main.js"></script>
+
+</body>
+</html>
