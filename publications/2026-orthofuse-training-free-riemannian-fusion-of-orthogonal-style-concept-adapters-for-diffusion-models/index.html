@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127803291-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127803291-1');
+</script>
+
+        
+        <title>OrthoFuse: Training-free Riemannian Fusion of Orthogonal Style-Concept Adapters for Diffusion Models (CVPR 2026) – Bayesian Methods Research Group</title>
+        <meta property="twitter:site" content="@bayesgroup" />
+        <meta property="twitter:card" content="summary" />
+        <meta property="og:title" content="OrthoFuse: Training-free Riemannian Fusion of Orthogonal Style-Concept Adapters for Diffusion Models (CVPR 2026) – Bayesian Methods Research Group" />
+        <meta property="og:description" content="In a rapidly growing field of model training there is a constant practical interest in parameter-efficient fine-tuning and various techniques that use a small amount of training data to adapt the model to a narrow task. However, there is an open..." />
+        <meta property="og:image" content="http://bayesgroup.org/theme/images/bayesgroup_opengraph.png" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lte IE 8]><script src="/theme/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="/theme/css/ie8.css" /><![endif]-->
+</head>
+
+<body>
+        <!-- Header -->
+            <section id="header">
+                <header>
+                    <span class="image"><a href="/"><img src="/theme/images/bayesgroup.png" alt="" /></a></span>
+                    <h1 id="logo">Bayesian Methods Research Group</h1>
+                    <p>from Bremen, Germany</p>
+                </header>
+                <nav id="nav">
+                    <ul>
+                                <li><a href="/about/">About</a></li>
+                                <li><a href="/people">People</a></li>
+                                <li class="active"><a href="/publications">Publications</a></li>
+                                <li><a href="/teaching">Teaching</a></li>
+                                <li><a href="/admission/">Admission</a></li>
+                                <li><a href="/alumni/">Alumni</a></li>
+                    </ul>
+                </nav>
+                <footer>
+                    <ul class="icons">
+                        <li><a href="https://twitter.com/bayesgroup" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                        <li><a href="https://www.youtube.com/@bayesgroup" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+                        <li><a href="mailto:info@bayesgroup.org" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                    </ul>
+                </footer>
+            </section>
+
+        <!-- Wrapper -->
+            <div id="wrapper">
+
+                <!-- Group Photo -->
+                    <section id="photo">
+                        <div class="container">
+                            <span class="image fit"><img src="/theme/images/banner.jpg" alt="" /></span>
+                         </div>
+                    </section>
+
+                <!-- Main -->
+                    <div id="main">
+<section id="publication-page">
+	<div class="container">
+		<header class="major">
+			<h2><span class="ribbon-container"><span class="ribbon-left ribbon-green" title="The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026">CVPR 2026</span></span> OrthoFuse: Training-free Riemannian Fusion of Orthogonal Style-Concept Adapters for Diffusion Models</h2>
+            <div class="publication-authors">
+            <ol>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Ali Aliev" /> Ali Aliev
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Kamil Garifullin" /> Kamil Garifullin
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Nikolay Yudin" /> Nikolay Yudin
+                </li>
+
+                <li class="author">
+                    <a href="/people/vera-soboleva/">
+                    <img src="/photos/vera-soboleva.JPEG" alt="Photo Vera Soboleva" /> Vera Soboleva
+                    </a>
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Alexander Molozhavenko" /> Alexander Molozhavenko
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Ivan Oseledets" /> Ivan Oseledets
+                </li>
+
+                <li class="author">
+                    <a href="/people/aibek-alanov/">
+                    <img src="/photos/alanov.jpg" alt="Photo Aibek Alanov" /> Aibek Alanov
+                    </a>
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Maxim Rakhuba" /> Maxim Rakhuba
+                </li>
+            </ol>
+            </div>
+		</header>
+
+    <p>In a rapidly growing field of model training there is a constant practical interest in parameter-efficient fine-tuning and various techniques that use a small amount of training data to adapt the model to a narrow task. However, there is an open question: how to combine several adapters tuned for different tasks into one which is able to yield adequate results on both tasks? Specifically, merging subject and style adapters for generative models remains unresolved. In this paper we seek to show that in the case of orthogonal fine-tuning (OFT), we can use structured orthogonal parametrization and its geometric properties to get the formulas for training-free adapter merging. In particular, we derive the structure of the manifold formed by the recently proposed Group-and-Shuffle (GS) orthogonal matrices, and obtain efficient formulas for the geodesics approximation between two points. Additionally, we propose a spectra restoration transform that restores spectral properties of the merged adapter for higher-quality fusion. We conduct experiments in subject-driven generation tasks showing that our technique to merge two GS orthogonal matrices is capable to unite concept and style features of different adapters. To the best of our knowledge, this is the first training-free method for merging multiplicative orthogonal adapters. Code is available via the link: https://github.com/ControlGenAI/OrthoFuse.</p>
+
+            <div class="publication-links">
+<a href ="https://openaccess.thecvf.com/content/CVPR2026/papers/Aliev_OrthoFuse_Training-free_Riemannian_Fusion_of_Orthogonal_Style-Concept_Adapters_for_Diffusion_CVPR_2026_paper.pdf" class="publication-paper-link" title="Link to paper">paper</a><a href ="https://github.com/ControlGenAI/OrthoFuse" class="publication-code-link" title="Link to code">code</a>            </div>
+
+
+
+    </div>
+</section>
+                    </div>
+
+                <!-- Footer -->
+                    <section id="footer">
+                        <div class="container">
+                            <ul class="copyright">
+                                <li>Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                            </ul>
+                        </div>
+                    </section>
+
+            </div>
+
+        <!-- Scripts -->
+            <script src="/theme/js/jquery.min.js"></script>
+            <script src="/theme/js/jquery.scrollzer.min.js"></script>
+            <script src="/theme/js/jquery.scrolly.min.js"></script>
+            <script src="/theme/js/skel.min.js"></script>
+            <script src="/theme/js/util.js"></script>
+            <!--[if lte IE 8]><script src="theme/js/ie/respond.min.js"></script><![endif]-->
+            <script src="/theme/js/main.js"></script>
+
+</body>
+</html>
